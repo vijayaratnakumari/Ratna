@@ -1,15 +1,18 @@
 {
-    "name": "ratna",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.18.2",
-      "npm": "*"
-    }
-  }
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "start.sh",
+  "scripts": {
+    "test": "npm install",
+    "install-client": "npm install --prefix .",
+    "dev": "node server.js"
+  },
+  "author": "vijaya",
+  "license": "ISC",
+  "dependencies": {
+"express": "^4.18.2",
+"npm": "*"
+}
+
+}

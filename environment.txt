@@ -1,0 +1,10 @@
+MONGODB_CONNECTION_STRING = "mongodb+srv://milankamilya:crFgiYpRlSpZCXG2@cluster0.ok3jgfg.mongodb.net/truckr"
+MAIL_USER = "donotreply@haulrcorp.com"
+MAIL_PASS = "ppsngomxjjnklxhy"
+# MIGUELMAIL - Where system events messages going.
+# USER_VERT - If this exists then user vertifcation can occur with any input.
+MAPBOX_KEY = 'pk.eyJ1IjoibGlrZWFmb3giLCJhIjoiY2xqdGQ0YmQ4MDI3MzNobWpsMGt2YXh1NiJ9.413FeRc4xCHFgYgxsTG2tg'
+MIGRATE_dbConnectionUri = 'mongodb://127.0.0.1:27017/truckr'
+INTUIT_CLIENT_ID = 'ABctyIwpvhNAYQLT3Qy8BVy3U1FJ1vScMYyfxBguUE5NXToEW8'
+INTUIT_CLIENT_SECRET = 'KAPOpm3EwufsyngFhOE6yKpLHKW4qdeP7uHo6x8V'
+

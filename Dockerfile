@@ -1,4 +1,10 @@
 FROM node:latest
+# Use the Amazon Linux base image
+FROM amazonlinux:latest
+
+# Install necessary packages using yum
+RUN yum update -y && \
+    yum install -y iproute
 
 # Create a working directory
 WORKDIR /root/nodejs
@@ -10,7 +16,9 @@ COPY package.json .
 COPY server.js .
 
 # Install npm (no need to specify version)
-RUN npm install -g npm
+#RUN npm install -g npm
+# Install npm
+RUN yum update && yum install -y npm
 
 # Set executable permissions on the start.sh script
 RUN chmod +x start.sh
