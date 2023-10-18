@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "https://nodejs.dev/en/learn/",
+            
+            "request": "launch",
+            "url": "https://nodejs.dev/en/learn/",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "chrome"
+        },
+        {
+            "type": "chrome",
+            "name": "http://localhost:8080",
+            "request": "launch",
+            "url": "http://localhost:8080"
+        }
+    ]
+}

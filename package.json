@@ -11,8 +11,8 @@
   "author": "vijaya",
   "license": "ISC",
   "dependencies": {
-"express": "^4.18.2",
-"npm": "*"
-}
-
+    "express": "^4.18.2",
+    "nodejs": "file:",
+    "npm": "*"
+  }
 }
